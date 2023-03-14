@@ -1,0 +1,2 @@
+telegram_token = '77777777477:AAErxYDGjdhfhhuehhuhZb5oOfCEvoSCPzo'
+openai_api_key = 'ot-h7O5FkQ7HFP1jdfbjfhugT3BlbkFmfjh545FFGF9tzYvDF77I'
