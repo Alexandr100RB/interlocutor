@@ -26,6 +26,7 @@ async def process_start_command(message: types.Message):
                            "Привет! Я бот с ChatGPt, просто напиши мне сообщение и я что-нибудь тебе отвечу")
 
 
+# Любое сообщение от пользователя обрабатываем с chatgpt
 @dp.message_handler()
 async def send(message: types.Message):
     try:
@@ -46,5 +47,6 @@ async def send(message: types.Message):
 async def main():
     await dp.start_polling(bot)
 
+# Запуск бота
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True, on_startup=start_bot)
